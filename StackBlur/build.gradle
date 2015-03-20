@@ -1,4 +1,19 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+        classpath 'com.github.dcendents:android-maven-plugin:1.2'
+    }
+}
+
+repositories {
+   jcenter()
+}
+
 apply plugin: 'android-library'
+apply plugin: 'android-maven'
 
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
