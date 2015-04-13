@@ -12,7 +12,7 @@ repositories {
    jcenter()
 }
 
-apply plugin: 'android-library'
+apply plugin: 'com.android.library'
 apply plugin: 'android-maven'
 
 dependencies {
